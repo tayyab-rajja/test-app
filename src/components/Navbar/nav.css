@@ -1,0 +1,48 @@
+.nav-main {
+  position: absolute;
+  width: 1280px;
+  height: 72px;
+  background: #ffffff;
+  display: flex;
+}
+.nav-inner {
+  display: flex;
+}
+.nav-inner2 {
+  display: flex;
+}
+.nav-inner img {
+  /* position: absolute; */
+  width: 25px;
+  /* left: 1046px;
+  top: 24px; */
+  margin: 0px 0px 0px 840px;
+}
+.nav-inner p {
+  /* position: absolute; */
+  margin: 26px 0px 0px 20px;
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  color: #323232;
+}
+
+.nav-inner2 img {
+  width: 25px;
+  margin: 0px 0px 0px 60px;
+}
+.nav-inner2 p {
+  /* position: absolute; */
+  margin: 20px 0px 0px 10px;
+
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  color: #323232;
+}
+
+.nav-main button{
+    margin: 0px 0px 0px 20px;
+}
