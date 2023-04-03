@@ -45,17 +45,21 @@ const Funktionin = () => {
                 : "",
             }}
           >
-            <span className="checkboxx-container">
-              <input
-                type="checkbox"
-                id={`dropdown-checkboxx-${index}`}
-                checked={checkedBoxes.includes(checkname.id)}
-                onChange={() => handleCheckboxChange(checkname.id)}
-              />
-              <label htmlFor={`dropdown-checkboxx-${index}`}></label>
-            </span>
-            <span style={{ marginLeft: "10px" }}>{checkname.name}</span>
-            <span>+ 1.232,00€</span>
+            <div style={{ display: "flex", justifyContent:"space-between",alignItems:'center', marginTop:'-12px'  }}>
+              <div >
+                <span className="checkboxx-container">
+                  <input
+                    type="checkbox"
+                    id={`dropdown-checkboxx-${index}`}
+                    checked={checkedBoxes.includes(checkname.id)}
+                    onChange={() => handleCheckboxChange(checkname.id)}
+                  />
+                  <label htmlFor={`dropdown-checkboxx-${index}`}></label>
+                </span>
+                <span style={{ margin: "10px" }}>{checkname.name}</span>
+              </div>
+              <span>+ 1.232,00€</span>
+            </div>
           </button>
         ))}
         <div className="cua-main">
