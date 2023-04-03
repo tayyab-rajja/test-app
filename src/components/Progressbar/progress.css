@@ -1,0 +1,41 @@
+.prog-main {
+  display: flex;
+  width: 37.5%;
+  justify-content: space-between;
+  padding: 30px 0px 15px 30px;
+}
+.prog-head {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 18px;
+}
+.prog-sub {
+  font-size: 12px;
+  line-height: 15px;
+  text-decoration-line: underline;
+  color: #323232;
+}
+.prog-img{
+    background-repeat: no-repeat;
+    background-image: url('../../images/Ellipse.png');
+    padding: 5px 10px 5px 25px;
+}
+.prog-img img{
+    display: flex;
+    align-items: center;
+}
+
+/* .prog-img {
+    position: relative;
+    display: inline-block;
+  }
+  
+.prog-img  img{
+    padding: 50px 10px 5px 200px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+    object-fit: cover;
+  } */

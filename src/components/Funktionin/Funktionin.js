@@ -36,7 +36,7 @@ const Funktionin = () => {
         {checknames.map((checkname, index) => (
           <button
             key={index}
-            className={`dropdown-buttons ${
+            className={`dropdown-buttonss ${
               checkedBoxes.includes(checkname.id) ? "checked" : ""
             }`}
             style={{
@@ -45,14 +45,14 @@ const Funktionin = () => {
                 : "",
             }}
           >
-            <span className="checkbox-container">
+            <span className="checkboxx-container">
               <input
                 type="checkbox"
-                id={`dropdown-checkbox-${index}`}
+                id={`dropdown-checkboxx-${index}`}
                 checked={checkedBoxes.includes(checkname.id)}
                 onChange={() => handleCheckboxChange(checkname.id)}
               />
-              <label htmlFor={`dropdown-checkbox-${index}`}></label>
+              <label htmlFor={`dropdown-checkboxx-${index}`}></label>
             </span>
             <span style={{ marginLeft: "10px" }}>{checkname.name}</span>
             <span>+ 1.232,00€</span>
