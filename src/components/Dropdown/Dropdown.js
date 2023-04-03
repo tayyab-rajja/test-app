@@ -2,7 +2,6 @@ import React from "react";
 import { useState } from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./dropdown.css";
-import { Dropdown } from "react-bootstrap";
 import Dropdownicon from "../../images/DropdownIcon.svg";
 
 const CustomDropdown = () => {
